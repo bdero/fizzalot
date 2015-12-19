@@ -7,6 +7,6 @@ func _ready():
 
 func _process(delta):
 	var vp = get_viewport_rect().size
-	var scale = Vector2(vp.width, vp.height)*2
-	set_scale(scale)
-	set_pos(scale/4)
+	var scale = vp
+	set_scale(scale*2)
+	set_pos(scale/2)
