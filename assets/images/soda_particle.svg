@@ -7,20 +7,51 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="soda_particle.svg"
+   inkscape:export-ydpi="21.674667"
+   inkscape:export-xdpi="21.674667"
    inkscape:export-filename="/home/bdero/projects/godot-projects/fizzalot/assets/images/soda_particle.png"
-   inkscape:export-xdpi="15.48"
-   inkscape:export-ydpi="15.48">
+   sodipodi:docname="soda_particle.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 531.49606 531.49606"
+   height="150mm"
+   width="150mm">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="44"
+     inkscape:window-x="0"
+     inkscape:window-height="1682"
+     inkscape:window-width="2880"
+     showgrid="false"
+     inkscape:current-layer="layer3"
+     inkscape:document-units="px"
+     inkscape:cy="503.85397"
+     inkscape:cx="634.90034"
+     inkscape:zoom="0.7"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <defs
      id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8169">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop8171" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop8173" />
+    </linearGradient>
     <filter
        inkscape:label="Glowing Bubble"
        inkscape:menu="Ridges"
@@ -29,7 +60,7 @@
        y="-0.25"
        width="1.5"
        height="1.5"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter8128">
       <feGaussianBlur
          stdDeviation="1"
@@ -62,7 +93,7 @@
          specularExponent="45"
          specularConstant="2"
          surfaceScale="2.5"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="fbSourceGraphic"
          id="feSpecularLighting8140">
@@ -85,10 +116,11 @@
          result="result4"
          in="fbSourceGraphic"
          in2="result2"
-         id="feComposite8146" />
+         id="feComposite8146"
+         k1="0"
+         k4="0" />
       <feComposite
          operator="over"
-         in="result9"
          in2="result4"
          result="result9"
          id="feComposite8148" />
@@ -139,7 +171,7 @@
          specularExponent="35"
          specularConstant="1.5"
          surfaceScale="-2"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="result0">
         <feDistantLight
@@ -160,7 +192,9 @@
          k2="1"
          operator="arithmetic"
          result="result4"
-         in="fbSourceGraphic" />
+         in="fbSourceGraphic"
+         k1="0"
+         k4="0" />
       <feComposite
          id="feComposite8202"
          in2="result4"
@@ -180,7 +214,7 @@
        inkscape:menu-tooltip="Bubble effect with refraction and glow"
        inkscape:menu="Ridges"
        inkscape:label="Glowing Bubble"
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        id="filter8268">
       <feTurbulence
          type="fractalNoise"
@@ -227,7 +261,9 @@
          result="result2"
          operator="arithmetic"
          in2="result4"
-         id="feComposite8284" />
+         id="feComposite8284"
+         k2="0"
+         k4="0" />
       <feBlend
          in2="result2"
          mode="screen"
@@ -299,9 +335,9 @@
          id="feSpecularLighting8328"
          in="result0"
          result="result1"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          surfaceScale="8"
-         specularConstant="0.8"
+         specularConstant="0.80000001"
          specularExponent="30">
         <feDistantLight
            id="feDistantLight8330"
@@ -321,7 +357,9 @@
          result="fbSourceGraphic"
          operator="arithmetic"
          k2="1"
-         k3="1" />
+         k3="1"
+         k1="0"
+         k4="0" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
@@ -364,7 +402,7 @@
          specularExponent="35"
          specularConstant="1.5"
          surfaceScale="-2"
-         lighting-color="rgb(255,255,255)"
+         lighting-color="#ffffff"
          result="result1"
          in="result0">
         <feDistantLight
@@ -385,7 +423,9 @@
          k2="1"
          operator="arithmetic"
          result="result4"
-         in="fbSourceGraphic" />
+         in="fbSourceGraphic"
+         k1="0"
+         k4="0" />
       <feComposite
          id="feComposite8378"
          in2="result4"
@@ -398,14 +438,14 @@
          mode="multiply" />
     </filter>
     <filter
-       inkscape:menu="Image Effects"
-       inkscape:label="Brilliance"
-       inkscape:menu-tooltip="Sharpen edges and boundaries within the object, force=0.15"
+       inkscape:menu="Color"
+       inkscape:label="Greyscale"
+       inkscape:menu-tooltip="Oversaturate colors which can be fluorescent in real world"
        height="2"
        y="-0.5"
        width="1.6"
-       x="-0.3"
-       style="color-interpolation-filters:sRGB;"
+       x="-0.30000001"
+       style="color-interpolation-filters:sRGB"
        id="filter8468">
       <feGaussianBlur
          stdDeviation="15"
@@ -455,7 +495,9 @@
          in="fbSourceGraphic"
          in2="fbSourceGraphic"
          result="result91"
-         id="feComposite8484" />
+         id="feComposite8484"
+         k3="0"
+         k4="0" />
       <feBlend
          in="fbSourceGraphic"
          mode="multiply"
@@ -484,27 +526,49 @@
       <feColorMatrix
          id="feColorMatrix8660"
          values="2.42 -0.24 -0.24 0 0.11 -0.24 2.42 -0.24 0 0.11 -0.24 -0.24 2.42 0 0.11 0 0 0 1 0 "
+         in="fbSourceGraphic"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix8145" />
+      <feColorMatrix
+         id="feColorMatrix8147"
+         type="hueRotate"
+         values="0"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix8149"
+         type="saturate"
+         values="1" />
+      <feColorMatrix
+         values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0 "
+         type="matrix"
+         id="feColorMatrix8691"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix8461" />
+      <feColorMatrix
+         id="feColorMatrix8463"
+         values="4.17 3.90374 -1.44 4.33 0 4.17 3.90374 -1.44 4.33 0 4.17 3.90374 -1.44 4.33 0 0 0 0 1 0 "
          in="fbSourceGraphic" />
     </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8169"
+       id="radialGradient8175"
+       cx="358.57144"
+       cy="528.0993"
+       fx="358.57144"
+       fy="528.0993"
+       r="240"
+       gradientTransform="matrix(0.65164937,-0.96630813,0.89149408,0.63805356,-451.38591,797.98541)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="1037.1031"
-     inkscape:cy="1239.3161"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="2880"
-     inkscape:window-height="1682"
-     inkscape:window-x="0"
-     inkscape:window-y="44"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -521,26 +585,42 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Black Background"
-     style="display:none">
+     style="display:none"
+     transform="translate(0,-520.86614)">
     <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#0b0b0b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect8102"
-       width="977.85712"
-       height="1448.9276"
-       x="-116.88132"
-       y="-198.2827" />
+       width="617.85712"
+       height="594.64191"
+       x="-43.180527"
+       y="489.29321" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Soda 1"
+     style="display:inline"
+     transform="translate(0,-520.86614)">
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#radialGradient8175);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path8151"
+       cx="265.74802"
+       cy="786.6142"
+       rx="225.71429"
+       ry="229.7619" />
   </g>
   <g
      inkscape:label="Soda"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,-520.86614)">
     <circle
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#502d16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;filter:url(#filter8468);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#63381b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;filter:url(#filter8468);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="path8382"
        cx="337.85715"
        cy="323.7908"
        r="175"
-       transform="matrix(1.4734767,0,0,2.2689492,-125.77739,-208.48378)" />
+       transform="matrix(1.4977136,0,0,1.4765552,-240.26521,308.51918)" />
   </g>
 </svg>
