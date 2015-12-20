@@ -8,5 +8,5 @@ func _ready():
 	set_process(true)
 
 func _process(delta):
-	var new_position = get_translation().linear_interpolate(destination.get_translation(), 0.01)
+	var new_position = get_translation().linear_interpolate(destination.get_translation(), delta/2)
 	set_translation(new_position)

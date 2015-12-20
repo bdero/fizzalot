@@ -31,7 +31,7 @@ func _process(delta):
 		destination_scale = SCALE_OVER
 	else:
 		destination_scale = SCALE_OUT
-	button_text.set_scale(button_text.get_scale().linear_interpolate(destination_scale, 0.2))
+	button_text.set_scale(button_text.get_scale().linear_interpolate(destination_scale, delta*8))
 
 
 func _on_Control_mouse_enter():
