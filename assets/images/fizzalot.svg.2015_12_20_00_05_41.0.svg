@@ -19,8 +19,7 @@
    sodipodi:docname="fizzalot.svg"
    inkscape:export-filename="/home/bdero/projects/godot-projects/fizzalot/assets/images/fizzalot.png"
    inkscape:export-xdpi="127"
-   inkscape:export-ydpi="127"
-   enable-background="new">
+   inkscape:export-ydpi="127">
   <defs
      id="defs4">
     <linearGradient
@@ -1143,7 +1142,7 @@
        inkscape:label="Blur"
        id="filter12812">
       <feGaussianBlur
-         stdDeviation="0.01 1.8"
+         stdDeviation="0.01 7.5999999999999996"
          result="fbSourceGraphic"
          id="feGaussianBlur12814" />
       <feColorMatrix
@@ -1154,7 +1153,7 @@
          stdDeviation="0.01 4.0999999999999996" />
       <feGaussianBlur
          id="feGaussianBlur12818"
-         stdDeviation="0.01 1.3"
+         stdDeviation="0.01 4.1439534883720928"
          result="blur"
          in="fbSourceGraphic" />
     </filter>
@@ -1163,7 +1162,7 @@
        inkscape:label="Blur"
        id="filter12932">
       <feGaussianBlur
-         stdDeviation="0.01 7"
+         stdDeviation="0.01 16.3185"
          result="blur"
          id="feGaussianBlur12934" />
     </filter>
@@ -1176,10 +1175,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="726.35506"
-     inkscape:cy="329.3242"
+     inkscape:cx="564.73065"
+     inkscape:cy="248.512"
      inkscape:document-units="px"
-     inkscape:current-layer="g13054"
+     inkscape:current-layer="layer8"
      showgrid="false"
      inkscape:window-width="2880"
      inkscape:window-height="1682"
@@ -1202,9 +1201,9 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Black Background"
-     style="display:none">
+     style="display:inline">
     <rect
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#192537;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.81621555;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        id="rect13193"
        width="1583.9194"
        height="569.72607"
@@ -1212,11 +1211,10 @@
        y="-19.11495" />
   </g>
   <g
-     inkscape:label="Logo"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-520.86615)"
-     style="display:inline">
+     transform="translate(0,-520.86615)">
     <g
        id="g8413"
        transform="translate(44.446714,216.17269)">
@@ -1283,12 +1281,11 @@
          transform="translate(-248.49752,-7.0710678)">
         <g
            id="g13054"
-           transform="translate(2.0203054,6.0609157)"
-           style="opacity:1">
+           transform="translate(2.0203054,6.0609157)">
           <g
-             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.70099996;fill:url(#radialGradient12215);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter12812)"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient12215);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter12812)"
              id="g12085"
-             transform="matrix(3.7045735,0,0,4.394218,230.38009,-1659.1049)">
+             transform="matrix(3.7847198,0,0,3.6851036,214.98959,-1285.9657)">
             <path
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:'Sigmar One';-inkscape-font-specification:'Sigmar One, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:url(#radialGradient12239);fill-opacity:1;filter:url(#filter12117)"
                d="m 82.337891,498.35352 c -9.512908,0.82151 -19.2303,-0.77724 -28.621094,0.53125 -6.559999,3.55871 -2.4547,12.14092 -3.487192,17.95884 0.485024,9.1495 -0.237703,18.80434 2.289926,27.62514 4.231244,5.71399 11.063444,0.53095 16.658203,2.03516 5.029449,1.01342 11.140838,-2.35298 9.556641,-8.12305 -0.6921,-3.65191 2.626719,-5.41234 5.818359,-4.91211 7.270342,-1.46616 5.609056,-10.18295 4.455078,-15.51953 -0.844006,-3.54787 4.487935,-5.503 3.6875,-9.66016 0.562704,-5.14488 -2.791278,-10.79399 -8.585937,-9.94531 -0.590508,-0.0193 -1.180996,0.002 -1.771484,0.01 z"
@@ -1385,8 +1382,8 @@
           </g>
           <g
              id="g12459"
-             style="opacity:0.459;fill:url(#radialGradient12540);fill-opacity:1;filter:url(#filter12932)"
-             transform="matrix(0.9741491,0,0,0.89468449,430.9938,382.41172)">
+             style="opacity:0.92400004;fill:url(#radialGradient12540);fill-opacity:1;filter:url(#filter12932)"
+             transform="matrix(1.007011,0,0,0.77522858,406.10514,424.98915)">
             <g
                transform="translate(0,-1.0101525)"
                style="opacity:0.875;fill:url(#radialGradient12686);fill-opacity:1;filter:url(#filter12117)"
