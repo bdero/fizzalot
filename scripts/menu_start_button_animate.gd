@@ -11,6 +11,7 @@ var time = 2.3
 var button_text
 
 var mouse_over = false
+var fadeout = false
 
 
 func _ready():
@@ -39,7 +40,10 @@ func _on_Control_mouse_enter():
 
 func _on_Control_mouse_exit():
 	mouse_over = false
-
+	
 func _on_Control_input_event(ev):
-	if ev.type == InputEvent.MOUSE_BUTTON and mouse_over:
-		print("button clicked")
+	if ev.type == InputEvent.MOUSE_BUTTON and mouse_over and not fadeout:
+		var fade = get_tree().get_current_scene().get_node("fade")
+		var animation = fade.get_node("animation")
+		animation.play_backwards("FadeIn", 1)
+		fadeout = true
