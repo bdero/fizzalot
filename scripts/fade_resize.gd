@@ -12,7 +12,6 @@ func fade_out():
 func _ready():
 	animations = get_node("animation")
 	set_process(true)
-	fade_in()
 
 func _process(delta):
 	var vp = get_viewport_rect().size

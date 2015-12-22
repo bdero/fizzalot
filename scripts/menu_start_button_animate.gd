@@ -11,7 +11,6 @@ var time = 2.3
 var button_text
 
 var mouse_over = false
-var fadeout = false
 
 
 func _ready():
@@ -42,7 +41,5 @@ func _on_Control_mouse_exit():
 	mouse_over = false
 	
 func _on_Control_input_event(ev):
-	if ev.type == InputEvent.MOUSE_BUTTON and mouse_over and not fadeout:
-		var fade = get_tree().get_root().get_node("main_scene/fade")
-		fade.fade_out()
-		fadeout = true
+	if ev.type == InputEvent.MOUSE_BUTTON and mouse_over:
+		get_node("/root/main_scene").transition_scene("game_scene.scn")
