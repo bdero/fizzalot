@@ -43,7 +43,6 @@ func _on_Control_mouse_exit():
 	
 func _on_Control_input_event(ev):
 	if ev.type == InputEvent.MOUSE_BUTTON and mouse_over and not fadeout:
-		var fade = get_tree().get_current_scene().get_node("fade")
-		var animation = fade.get_node("animation")
-		animation.play("FadeIn", 0.5, -3, true)
+		var fade = get_tree().get_root().get_node("main_scene/fade")
+		fade.fade_out()
 		fadeout = true

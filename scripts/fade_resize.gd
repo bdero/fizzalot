@@ -1,9 +1,18 @@
 extends Sprite
 
 
+var animations
+
+func fade_in():
+	animations.play("FadeIn")
+
+func fade_out():
+	animations.play("FadeIn", 0.5, -3, true)
+
 func _ready():
+	animations = get_node("animation")
 	set_process(true)
-	get_node("animation").play("FadeIn")
+	fade_in()
 
 func _process(delta):
 	var vp = get_viewport_rect().size
